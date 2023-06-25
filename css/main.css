@@ -978,6 +978,10 @@ footer .social-links .left-col {
     line-height: 4.8rem;
     margin: 1.6rem 0 1.2rem;
   }
+  .cross-border-transactions .top-section p {
+    padding: 0 4rem;
+    line-height: 2.6rem;
+  }
   .cross-border-transactions .bottom-section {
     display: flex;
     align-items: center;
@@ -1020,6 +1024,10 @@ footer .social-links .left-col {
     font-size: 4rem;
     line-height: 4.8rem;
     margin: 1.6rem 0 1.2rem;
+  }
+  .real-time-exchange-rate .top-section p {
+    padding: 0 4rem;
+    line-height: 2.6rem;
   }
   .real-time-exchange-rate .bottom-section {
     display: flex;
@@ -1067,6 +1075,10 @@ footer .social-links .left-col {
     font-size: 4rem;
     line-height: 4.8rem;
     margin: 1.6rem 0 1.2rem;
+  }
+  .easily-receive-and-request .top-section p {
+    padding: 0 10rem;
+    line-height: 2.6rem;
   }
   .easily-receive-and-request .bottom-section {
     display: flex;
@@ -1316,8 +1328,24 @@ footer .social-links .left-col {
   .cross-border-transactions {
     padding: 0 0 6.2rem;
   }
+  .cross-border-transactions .top-section p {
+    padding: 0 15rem;
+  }
   .real-time-exchange-rate {
     padding: 0 0 6.2rem;
+  }
+  .real-time-exchange-rate .top-section p {
+    padding: 0 15rem;
+  }
+  .real-time-exchange-rate .bottom-section .img-section .img-wrapper::before {
+    top: 15px;
+    right: 90px;
+    width: 114px;
+  }
+  .real-time-exchange-rate .bottom-section .img-section .img-wrapper::after {
+    width: 141px;
+    left: 83px;
+    top: 161px;
   }
   .easily-receive-and-request {
     padding: 0 0 6.6rem;
