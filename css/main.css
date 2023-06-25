@@ -827,7 +827,7 @@ main section p {
 .CTA-banner .download-app-card::before {
   position: absolute;
   content: "";
-  background: url(/Images/Speech\ bubble.svg) no-repeat;
+  background: url(Images/Speech\ bubble.svg) no-repeat;
   width: 106px;
   height: 100%;
   background-size: contain;
