@@ -20,15 +20,15 @@ p {
 
 @font-face {
   font-family: "Grifter";
-  src: url(/fonts/grifterbold.otf);
+  src: url(../fonts/grifterbold.otf);
 }
 @font-face {
   font-family: "Satoshi Regular";
-  src: url(/fonts/Satoshi-Regular.ttf);
+  src: url(../fonts/Satoshi-Regular.ttf);
 }
 @font-face {
   font-family: "Satoshi Medium";
-  src: url(/fonts/Satoshi-Medium.ttf);
+  src: url(../fonts/Satoshi-Medium.ttf);
 }
 @font-face {
   font-family: "Satoshi Bold";
@@ -36,11 +36,11 @@ p {
 }
 @font-face {
   font-family: "Inter-Regular";
-  src: url(/fonts/Inter-Regular.ttf);
+  src: url(../fonts/Inter-Regular.ttf);
 }
 @font-face {
   font-family: "Inter-SemiBold";
-  src: url(/fonts/Inter-SemiBold.ttf);
+  src: url(../fonts/Inter-SemiBold.ttf);
 }
 h1 {
   font-family: "Grifter", sans-serif;
@@ -335,7 +335,7 @@ main section p {
 }
 .real-time-exchange-rate .bottom-section .img-section .img-wrapper::before {
   content: "";
-  background: url(/Images/business-3d-flying-dollar.png) no-repeat;
+  background: url(../Images/business-3d-flying-dollar.png) no-repeat;
   width: 80px;
   height: 100%;
   background-size: contain;
@@ -346,7 +346,7 @@ main section p {
 }
 .real-time-exchange-rate .bottom-section .img-section .img-wrapper::after {
   content: "";
-  background: url(/Images/3d-business-pile-of-three-coins.png) no-repeat;
+  background: url(../Images/3d-business-pile-of-three-coins.png) no-repeat;
   width: 80px;
   height: 100%;
   background-size: contain;
