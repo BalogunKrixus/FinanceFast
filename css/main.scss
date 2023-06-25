@@ -20,27 +20,27 @@ html {
 
 @font-face {
     font-family: "Grifter";
-    src: url(/fonts/grifterbold.otf);
+    src: url(../fonts/grifterbold.otf);
   } 
 @font-face {
     font-family: "Satoshi Regular";
-    src: url(/fonts/Satoshi-Regular.ttf);
+    src: url(../fonts/Satoshi-Regular.ttf);
   }
 @font-face {
     font-family: "Satoshi Medium";
-    src: url(/fonts/Satoshi-Medium.ttf);
+    src: url(../fonts/Satoshi-Medium.ttf);
   }
   @font-face {
     font-family: "Satoshi Bold";
-    src: url(/fonts/Satoshi-Bold.ttf);
+    src: url(../fonts/Satoshi-Bold.ttf);
   }
   @font-face {
     font-family: "Inter-Regular";
-    src: url(/fonts/Inter-Regular.ttf);
+    src: url(../fonts/Inter-Regular.ttf);
   }
   @font-face {
     font-family: "Inter-SemiBold";
-    src: url(/fonts/Inter-SemiBold.ttf);
+    src: url(../fonts/Inter-SemiBold.ttf);
   }
 
   h1 {
@@ -388,7 +388,7 @@ html {
 
         &::before{
           content: "";
-          background: url(/Images/business-3d-flying-dollar.png) no-repeat;
+          background: url(../Images/business-3d-flying-dollar.png) no-repeat;
           width: 80px;
           height: 100%;
           background-size: contain;
@@ -401,7 +401,7 @@ html {
   
         &::after{
           content: "";
-          background: url(/Images/3d-business-pile-of-three-coins.png) no-repeat;
+          background: url(../Images/3d-business-pile-of-three-coins.png) no-repeat;
           width: 80px;
           height: 100%;
           background-size: contain;
@@ -609,7 +609,7 @@ html {
     &::before{
       content: "";
       position: absolute;
-      background: url(/Images/Lightening\ icon.svg) no-repeat;
+      background: url(../Images/Lightening\ icon.svg) no-repeat;
       width: 54px;
       height: 100%;
       background-size: contain;
@@ -622,7 +622,7 @@ html {
     &::after{
       content: "";
       position: absolute;
-      background: url(/Images/Spiral\ Background.svg) no-repeat;
+      background: url(../Images/Spiral\ Background.svg) no-repeat;
       width: 480px;
       height: 473px;
       background-size: contain;
@@ -955,7 +955,7 @@ html {
   background: white;
 
   .download-app-card{
-    background: #563ACC url(/Images/Spiral\ background\ download\ app.svg) no-repeat;
+    background: #563ACC url(../Images/Spiral\ background\ download\ app.svg) no-repeat;
     background-size: cover;
     color: white;
     border-radius: 2.4rem;
@@ -981,7 +981,7 @@ html {
     &::before{
       position: absolute;
       content: "";
-      background: url(/Images/Speech\ bubble.svg) no-repeat;
+      background: url(../Images/Speech\ bubble.svg) no-repeat;
       width: 106px;
       height: 100%;
       background-size: contain;
@@ -1177,6 +1177,11 @@ html {
         line-height: 4.8rem;
         margin: 1.6rem 0 1.2rem;
       }
+
+      p{
+        padding: 0 4.0rem;
+        line-height: 2.6rem;
+      }
     }
 
     .bottom-section{
@@ -1231,6 +1236,11 @@ html {
         font-size: 4.0rem;
         line-height: 4.8rem;
         margin: 1.6rem 0 1.2rem;
+      }
+
+      p{
+        padding: 0 4.0rem;
+        line-height: 2.6rem;
       }
     }
 
@@ -1294,6 +1304,11 @@ html {
         font-size: 4.0rem;
         line-height: 4.8rem;
         margin: 1.6rem 0 1.2rem;
+      }
+
+      p{
+        padding: 0 10.0rem;
+        line-height: 2.6rem;
       }
     }
 
@@ -1612,9 +1627,38 @@ html {
   }
   .cross-border-transactions{
     padding: 0 0 6.2rem;
+    .top-section{
+      p{
+        padding: 0 15.0rem;
+      }
+    }
   }
   .real-time-exchange-rate{
     padding: 0 0 6.2rem;
+
+      .top-section{
+        p{
+          padding: 0 15.0rem;
+        }
+      }
+
+      .bottom-section{
+        .img-section{
+          .img-wrapper{
+            &::before{
+              top: 15px;
+              right: 90px;
+              width: 114px;
+            }
+
+            &::after{
+              width: 141px;
+              left: 83px;
+              top: 161px;
+            }
+          }
+        }
+      }
   }
   .easily-receive-and-request{
     padding: 0 0 6.6rem;
