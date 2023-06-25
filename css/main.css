@@ -806,7 +806,7 @@ main section p {
   background: white;
 }
 .CTA-banner .download-app-card {
-  background: #563ACC url(/Images/Spiral\ background\ download\ app.svg) no-repeat;
+  background: #563ACC url(../Images/Spiral\ background\ download\ app.svg) no-repeat;
   background-size: cover;
   color: white;
   border-radius: 2.4rem;
